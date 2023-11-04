@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #4b8854;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./background-image.jpg");
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  max-width: 1200px;
+  background-color: #b8dc99;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+}
+
+.input-filed {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+.label-text {
+  margin-bottom: 0.5em;
+}
+
+input,
+select {
+  padding: 1em;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.result {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.reset {
+  text-align: center;
+}
+
+.reset button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 1em;
+  border: none;
+  background-color: #4b8854;
+  color: #b8dc99;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.reset button:hover {
+  background-color: #9eb48b;
+  color: #4b8854;
+  cursor: pointer;
+}
